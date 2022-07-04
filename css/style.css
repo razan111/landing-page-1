@@ -14,6 +14,11 @@ h2{
     font-weight: 400;
 }
 
+h3{
+    font-size: 20px;
+
+}
+
 p{
     font-size: 22px;
     text-align: justify;
@@ -43,6 +48,7 @@ p{
 
 .half-width img{
     width: 100%;
+ 
 }
 
 .link-btn{
@@ -93,4 +99,20 @@ p{
 
 .card-items p{
     width: 100%;
+}
+.blog{
+    padding-left: 5%;
+}
+.items img{
+    width: 100%;
+    height: 250px;
+}
+
+.blog .items{
+    box-shadow: none;
+}
+
+footer{
+    background-color: #415293;
+    padding: 5%;
 }
