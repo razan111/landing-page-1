@@ -1,0 +1,96 @@
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap');
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+p{
+    font-size: 22px;
+    text-align: justify;
+}
+
+.half{
+    align-self: center;
+}
+.hero{
+    display: flex;
+    background-image: url("../image/Group\ 1.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+   background-size: contain;
+
+}
+
+
+
+.half-width{
+    width: 40%;
+    padding-left: 5%;
+}
+.half p{
+    width: 60%;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+.link-btn{
+    text-decoration: none;
+   background-image: linear-gradient(#76DFB5, #06E9DF);
+   padding: 12px 35px;
+   border: none;
+   border-radius: 35px;
+   font-size: 22px;
+   color: white;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   line-height: 60px;
+}
+
+.easybank{
+    background-color: #F5F5F5;
+    padding: 90px 5%;
+    margin-top: -5.5%;
+    
+}
+.cards{
+    display: flex;
+   
+}
+
+.easybank p{
+    width: 50%;
+}
+
+.card-items{
+    width: 90%;
+    margin: 1%;
+    padding: 20px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 4px 10px 29px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 10px 29px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 10px 29px 0px rgba(0,0,0,0.75);
+}
+
+.card-items:hover{
+    background-color: #76DFB5;
+    color: white;
+    
+}
+
+.card-items p{
+    width: 100%;
+}
