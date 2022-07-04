@@ -102,6 +102,7 @@ p{
 }
 .blog{
     padding-left: 5%;
+    margin-bottom: 30px;
 }
 .items img{
     width: 100%;
@@ -114,5 +115,26 @@ p{
 
 footer{
     background-color: #415293;
-    padding: 5%;
+    padding-left: 5%;
+    padding-top: 70px;
+
+}
+
+.link-icon img{
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+.content{
+    display: flex;
+}
+
+.about{
+    margin-left: 15%;
+    margin-top: -25px;
+    color: white;
+}
+
+.about-btn{
+    margin-left: 13%;
 }
